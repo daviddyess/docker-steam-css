@@ -41,6 +41,8 @@ RUN cd /home/steam/css/cstrike && \
   tar zxvf /tempmods/mmsource.tar.gz && \
   tar zxvf /tempmods/sourcemod.tar.gz && \
   tar zxvf /tempmods/rankme.tar.gz && \
+  tar zxvf /tempmods/noblock.tar.gz && \
+  tar zxvf /tempmods/knifefight.tar.gz && \
   mv /tempmods/gem_damage_report.smx addons/sourcemod/plugins && \
   rm /tempmods/*
 
